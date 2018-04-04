@@ -1,0 +1,46 @@
+{
+	"name": "terminal-link-cli",
+	"version": "0.0.0",
+	"description": "Create clickable links in the terminal",
+	"license": "MIT",
+	"repository": "sindresorhus/terminal-link-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"link": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"link",
+		"hyperlink",
+		"url",
+		"ansi",
+		"escape",
+		"terminal",
+		"term",
+		"console",
+		"command-line"
+	],
+	"dependencies": {
+		"meow": "^4.0.0",
+		"terminal-link": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.10.0",
+		"xo": "*"
+	}
+}
