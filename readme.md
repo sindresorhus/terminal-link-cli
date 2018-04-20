@@ -15,13 +15,13 @@ $ npm install --global terminal-link-cli
 ## Usage
 
 ```
-$ link --help
+$ terminal-link --help
 
   Usage
-    $ link <text> <url>
+    $ terminal-link <text> <url>
 
   Example
-    $ link 'My Website' 'https://sindresorhus.com'
+    $ terminal-link 'My Website' 'https://sindresorhus.com'
 ```
 
 

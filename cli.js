@@ -5,10 +5,10 @@ const terminalLink = require('terminal-link');
 
 const cli = meow(`
 	Usage
-	  $ link <text> <url>
+	  $ terminal-link <text> <url>
 
 	Example
-	  $ link 'My Website' 'https://sindresorhus.com'
+	  $ terminal-link 'My Website' 'https://sindresorhus.com'
 `);
 
 const [text, url] = cli.input;
