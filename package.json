@@ -16,7 +16,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "./test.js"
 	},
 	"files": [
 		"cli.js"
@@ -34,13 +34,6 @@
 		"console",
 		"command-line"
 	],
-	"dependencies": {
-		"meow": "^4.0.0",
-		"terminal-link": "^1.0.0"
-	},
-	"devDependencies": {
-		"ava": "*",
-		"execa": "^0.10.0",
-		"xo": "*"
-	}
+	"dependencies": {},
+	"devDependencies": {}
 }

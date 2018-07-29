@@ -1,16 +1,11 @@
 #!/usr/bin/env node
 'use strict';
-const meow = require('meow');
-const terminalLink = require('terminal-link');
+const process = require('process');
 
-const cli = meow(`
-	Usage
-	  $ terminal-link <text> <url>
+if (process.argv.length !== 4) {
+	process.stderr.write('usage: terminal-link TEXT URL\n');
+	process.exit(1);
+}
 
-	Example
-	  $ terminal-link 'My Website' 'https://sindresorhus.com'
-`);
-
-const [text, url] = cli.input;
-
-console.log(terminalLink(text, url));
+process.stdout.write('\u001B]8;;' + process.argv[3] + '\u0007' +
+	process.argv[2] + '\u001B]8;;\u0007\n');
