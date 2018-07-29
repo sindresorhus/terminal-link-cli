@@ -20,11 +20,6 @@ usage: terminal-link TEXT URL
 ```
 
 
-## Related
-
-- [terminal-link](https://github.com/sindresorhus/terminal-link) - API for this module
-
-
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -34,9 +34,7 @@
 		"console",
 		"command-line"
 	],
-	"dependencies": {
-		"terminal-link": "^1.0.0"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"ava": "*",
 		"execa": "^0.10.0",
