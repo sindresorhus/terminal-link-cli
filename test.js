@@ -1,7 +1,8 @@
-import {execSync} from 'child_process';
-import test from 'ava';
+#!/usr/bin/env node
 
-test('main', t => {
-	const output = execSync('./cli.js "My Website" "https://sindresorhus.com"');
-	t.is(output.toString(), '\u001B]8;;https://sindresorhus.com\u0007My Website\u001B]8;;\u0007\n');
-});
+const {execSync} = require('child_process');
+const assert = require('assert');
+
+assert.strictEqual(
+	execSync('./cli.js "My Website" "https://sindresorhus.com"').toString(),
+	'\u001B]8;;https://sindresorhus.com\u0007My Website\u001B]8;;\u0007\n');

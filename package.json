@@ -16,7 +16,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ./test.js"
 	},
 	"files": [
 		"cli.js"
@@ -36,7 +36,6 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "*",
 		"xo": "*"
 	}
 }
