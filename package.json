@@ -16,7 +16,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ./test.js"
+		"test": "./test.js"
 	},
 	"files": [
 		"cli.js"
@@ -35,7 +35,5 @@
 		"command-line"
 	],
 	"dependencies": {},
-	"devDependencies": {
-		"xo": "*"
-	}
+	"devDependencies": {}
 }
