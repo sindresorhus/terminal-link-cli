@@ -15,13 +15,8 @@ $ npm install --global terminal-link-cli
 ## Usage
 
 ```
-$ terminal-link --help
-
-  Usage
-    $ terminal-link <text> <url>
-
-  Example
-    $ terminal-link 'My Website' 'https://sindresorhus.com'
+$ terminal-link
+usage: terminal-link TEXT URL
 ```
 
 

@@ -35,7 +35,6 @@
 		"command-line"
 	],
 	"dependencies": {
-		"meow": "^4.0.0",
 		"terminal-link": "^1.0.0"
 	},
 	"devDependencies": {
