@@ -22,4 +22,5 @@ usage: terminal-link TEXT URL
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com),
+[Sijmen J. Mulder](mailto:ik@sjmulder.nl)
