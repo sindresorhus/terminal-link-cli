@@ -1,4 +1,4 @@
-# terminal-link-cli [![Build Status](https://travis-ci.org/sindresorhus/terminal-link-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/terminal-link-cli)
+# terminal-link-cli
 
 > Create clickable links in the terminal
 
