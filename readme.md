@@ -4,13 +4,11 @@
 
 <img src="screenshot.gif" width="301">
 
-
 ## Install
 
 ```
 $ npm install --global terminal-link-cli
 ```
-
 
 ## Usage
 
@@ -24,12 +22,6 @@ $ terminal-link --help
     $ terminal-link 'My Website' 'https://sindresorhus.com'
 ```
 
-
 ## Related
 
 - [terminal-link](https://github.com/sindresorhus/terminal-link) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

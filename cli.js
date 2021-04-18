@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const terminalLink = require('terminal-link');
+import meow from 'meow';
+import terminalLink from 'terminal-link';
 
 const cli = meow(`
 	Usage
