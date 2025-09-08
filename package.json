@@ -15,7 +15,7 @@
 		"terminal-link": "./cli.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -37,12 +37,12 @@
 		"command-line"
 	],
 	"dependencies": {
-		"meow": "^9.0.0",
-		"terminal-link": "^3.0.0"
+		"meow": "^13.2.0",
+		"terminal-link": "^5.0.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.0.0",
-		"xo": "^0.38.2"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"xo": "^1.2.2"
 	}
 }

@@ -6,14 +6,14 @@
 
 ## Install
 
-```
-$ npm install --global terminal-link-cli
+```sh
+npm install --global terminal-link-cli
 ```
 
 ## Usage
 
-```
-$ terminal-link --help
+```sh
+terminal-link --help
 
   Usage
     $ terminal-link <text> <url>
@@ -24,4 +24,4 @@ $ terminal-link --help
 
 ## Related
 
-- [terminal-link](https://github.com/sindresorhus/terminal-link) - API for this module
+- [terminal-link](https://github.com/sindresorhus/terminal-link) - API for this package

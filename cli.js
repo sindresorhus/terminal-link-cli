@@ -8,7 +8,9 @@ const cli = meow(`
 
 	Example
 	  $ terminal-link 'My Website' 'https://sindresorhus.com'
-`);
+`, {
+	importMeta: import.meta,
+});
 
 const [text, url] = cli.input;
 
